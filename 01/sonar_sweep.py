@@ -62,7 +62,7 @@ def main():
     # The first comparison will be against infinity so that it never counts as
     # an increase.
     prev = float('inf')
-    with open('sonarSweep_input', 'r') as file:
+    with open('sonar_sweep_input', 'r') as file:
         for line in file:
             current = int(line)
             if current > prev: increases += 1

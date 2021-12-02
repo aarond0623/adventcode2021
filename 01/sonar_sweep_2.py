@@ -53,7 +53,7 @@ def main():
     # an increase.
     window = [float('inf')] * WINDOW_SIZE
     prev = sum(window)
-    with open('sonarSweep_input', 'r') as file:
+    with open('sonar_sweep_input', 'r') as file:
         for line in file:
             window[0] = window[1]
             window[1] = window[2]
